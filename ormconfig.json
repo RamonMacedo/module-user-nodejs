@@ -1,10 +1,10 @@
 {
-  "type": "mysql",
+  "type": "postgres",
   "host": "localhost",
-  "port": 3307,
-  "username": "root",
+  "port": 5432,
+  "username": "postgres",
   "password": "docker",
-  "database": "docker_mysql",
+  "database": "salty_empire",
   "entities": [
     "./src/models/*.ts"
   ],
